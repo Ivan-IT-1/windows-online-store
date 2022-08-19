@@ -1,0 +1,87 @@
+
+.opup  {
+    position: fixed;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+       
+    
+    
+    }
+    
+    
+    
+    
+    
+.opup:target {
+    
+        opacity: 1;
+        visibility: visible;
+    
+    }
+    
+    
+.opup__body {    
+        
+        min-height: 749px;
+        display: flex;       
+        padding: 5px 25px;
+    }
+    
+.opup_content  {
+    
+        background-color: rgb(222, 212, 212);
+        color:#000;
+        max-width: 80px;
+        padding: 200px;
+        position: relative;
+        border-radius: 20px;
+        
+       
+    }
+    
+.opup__close {
+    
+        position: absolute;
+        right: 10px;
+        top:10px;
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    
+.opup__title {
+        
+        font-size: 30px;
+        margin: -200px  -250px 1em -180px;
+    
+    }
+
+.opup__texs {
+    font-size: 25px;
+    margin: 0px  0px 1em -125px;
+
+    
+}
+
+p {
+        margin-top: -2.5em; /* Отступ сверху */
+        margin-bottom: 0.5em; /* Отступ снизу */
+       }
+
+     
+
+
+.opup__img {
+
+        position: relative;
+         left: -180px;
+         top: -750;
+             
+    }
+ 
+    

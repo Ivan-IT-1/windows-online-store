@@ -1,0 +1,120 @@
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav::before {
+  content: '';
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(139, 8, 249);
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+
+ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ height: 50px;
+
+}
+
+ul li {
+ float: left;
+}
+
+ul li a{
+ color: #fff;
+ display: block;
+ height: 50px;
+ padding: 0 30px;
+ text-transform: uppercase;
+ text-decoration: none;
+ line-height: 50px;
+}
+
+ul li a:hover {
+    background: #d34d43;
+}
+
+
+
+
+#OverviewText4:before {
+  content: "";
+  background: transparent url(data:image/png;base64,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) scroll no-repeat 0 0;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: block;
+  top: 1px;
+  left: 10px;
+}
+   
+
+.кнопка {
+  padding: 8px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  margin-top: 1%;  
+  outline: none;  
+}
+
+.кнопка:hover {
+  background: rgb(45,50,102)
+}
+
+input {
+  padding: 8px;
+  background-color: rgb(141, 73, 34);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  margin-top: 1%;  
+  outline: none; 
+
+  position: absolute;
+  top: -10;
+  right: 1300;
+}
+
+input:hover {
+  background: rgb(142, 39, 75)
+}
+
+
+
+
+.Vxod {
+  padding: 8px;
+  background-color: rgb(105, 32, 124);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1em;
+    
+  outline: none;  
+  margin-left: 80%;
+  margin-top: -30.2%;
+}
+
+.Vxod:hover {
+  background: rgb(99, 0, 220)
+}
+
+img{
+  height: 25px;
+  width: 25px;
+  margin-bottom:-5px  ;
+}
+
+
